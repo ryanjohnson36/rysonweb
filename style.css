@@ -1,0 +1,322 @@
+body {
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+}
+
+/* NavBar Section */
+.navbar {
+	transition:all 1s;
+}
+
+.navbar.active {
+	background:#777;
+}
+
+.navbar-nav a {
+	color:#e7e7e7;
+}
+
+.navbar-nav a:hover {
+	background:white;
+}
+
+.icon-bar {
+	background:white;
+}
+
+/* Showcase Section */
+#showcase-section {
+	background:url(sick.jpeg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:100vh;
+	overflow:hidden;
+}
+
+.showcase {
+	width:60%;
+	margin:auto;
+	color:white;
+}
+
+.showcase h1 {
+	margin-top:230px;
+	font-size:80px;
+}
+
+.showcase h2 {
+	font-size:60px;
+	text-align:center;
+}
+
+.showcase h3 {
+	text-align:right;
+	font-size:40px;
+}
+
+.showcase p {
+	text-align:center;
+	margin-top:130px;
+}
+
+.showcase p a {
+	color:white;
+	transition:all 1s;
+}
+
+.showcase p a:hover {
+	color:darkblue;
+	font-size:30px;
+}
+
+.background {
+	background:rgba(0,0,0,0.4);
+	overflow:hidden;
+	height:100vh;
+}
+
+/* Section 1 */
+#section1 {
+	background:#777;
+	overflow:hidden;
+	padding:30px 0 50px 0;
+}
+
+#section1 .container {
+	width:60%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#section1 .container h3 {
+	text-align:center;
+	line-height:1.5;
+	color:white;
+}
+
+#section1 .container h3 span {
+	color:black;
+	font-weight:600;
+}
+
+/* Wesbite Section */
+#website {
+	padding-bottom:20px;
+}
+.web ul {
+	text-align:center;
+}
+
+.web li {
+	list-style-type:none;
+	display:inline-block;
+	padding-right:40px;
+}
+
+.web li i {
+	background:#f4f4f4;
+	margin-top:-40px;
+	padding:20px;
+	border-radius:100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* About Section */
+#about-section {
+	background:#e7e7e7;
+	overflow:hidden;
+	padding:30px 0 30px 0;
+}
+
+.about {
+	width:60%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/* Services Section */
+#services-section {
+	padding:30px 0 30px 0;
+	text-align:center;
+}
+
+.col-sm-4 p {
+	text-align:left;
+}
+
+/* Work Section */
+#work-section {
+	background:#777;
+	overflow:hidden;
+	padding:30px 0 30px 0;
+}
+
+#work-section .container h2 {
+	text-align:center;
+}
+
+#work-section .container p {
+	width:50%;
+	margin:auto;
+	text-align:center;
+	padding-bottom:40px;
+}
+
+#work-section .col-sm-6 h5 {
+	margin-top:-150px;
+}
+
+#work-section .col-sm-6 h3 {
+	margin-top:150px;
+	text-align:center;
+}
+
+.col-sm-6 .ryson {
+	color:cyan;
+}
+
+.col-sm-6 .ryson:hover {
+	color:white;
+}
+
+.col-sm-6 .loan {
+	color:#3ad88f;
+}
+
+.col-sm-6 .loan:hover {
+	color:white;
+}
+
+.col-sm-6 .ryan {
+	color:black;
+}
+
+.col-sm-6 .ryan:hover {
+	color:white;
+}
+
+.col-sm-6 .sheltie {
+	color:skyblue;
+}
+
+.col-sm-6 .sheltie:hover {
+	color:white;
+}
+
+.col-sm-6 .tech {
+        color:orange;
+}
+
+.col-sm-6 .tech:hover {
+        color:white;
+}
+
+/* Contact Section */
+#contact-section {
+	padding:30px 0 30px 0;
+}
+
+.contact {
+	width:60%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+.contact .link {
+	margin:20px 0 20px 0;
+}
+
+.contact .link a {
+	border:2px solid black;
+	padding:10px 20px 10px 20px;
+	border-radius:50px;
+	text-decoration:none;
+	color:black;
+	transition:all 1s;
+}
+
+.contact .link a:hover {
+	color:white;
+	background:black;
+	padding:10px 50px 10px 50px;
+}
+
+.social a {
+	padding:10px;
+	font-size:22px;
+}
+@media only screen and (max-width:1199px){
+	/* Navbar Section */
+	.navbar {
+		background:#777;
+	}
+
+	.nav  {
+		text-align:center;
+	}
+
+	.navbar .navbar-right li {
+		display:inline-block;
+	}
+
+	/* Showcase Section */
+	.showcase {
+		width:100%;
+	}
+
+	.showcase h1 {
+		margin-top:100px;
+		font-size:30px;
+		text-align:center;
+	}
+
+	.showcase h2 {
+		font-size:30px;
+	}
+
+	.showcase h3 {
+		font-size:30px;
+		text-align:center;
+	}
+
+	.showcase p {
+		margin-top:0;
+	}
+
+	/* Section 1 */
+	#section1 .container {
+		width:100%;
+	}
+
+	/* About Section */
+	.about {
+		width:98%;
+	}
+
+	.about h2 {
+		text-align:center;
+	}
+
+	/* Website Section */
+	.web li {
+		display:block;
+	}
+
+	.web li i {
+		margin-top:0;
+	}
+
+	/* Work Section */
+	#work-section .container p {
+		width:100%;
+	}
+
+	/* Contact Section */
+	.contact {
+		width:100%;
+	}
+}
